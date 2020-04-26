@@ -1,9 +1,9 @@
 
 body{
-	background-image:  linear-gradient(to left,#4D2A00,#9C4800);
+	background-image:  linear-gradient(to left,yellow,lightgreen);
 }
 h1{
-	color:#FFAB4A;
+	color:red;
 	font-size: 40px;
 	text-align:center;
 	text-shadow: 3px 3px 3px grey; 
@@ -17,9 +17,9 @@ h1{
 
 .box1, .box2, .box3{ 
 	border-radius: 20px;            
-	background-color: #4D2A00;
+	background-image: linear-gradient(	#FF9900,#FFCC33);
 	padding-right: 40px;
-	box-shadow: 10px 10px 10px  black;
+	box-shadow: 10px 10px 10px  ;
 }
    
 
@@ -32,14 +32,27 @@ h1{
 
 .box1 >button, .box2 >button, .box3 >button{
 	font-size: 20px;
-	background-color: lightbrown;
-	margin-left:100px;
+	border-radius: 20px;
+	border:none;	
+	background-color: 	#696969;
+	margin-left:90px;
 	margin-bottom: 10px;
-	box-shadow: 2px 3px 2px grey;
+	box-shadow: 5px 5px 5px 	 black inset;
+}
+.box1 >button:hover, .box2 >button:hover, .box3 >button:hover{
+	border-color: brown;
+	background-color:	#C0C0C0;
+
 }
 
 ul{
-	color: #FFAB4A ;
+	color: #ff2500;
 	font-size: 30px;
-	text-shadow: 2px 2px 2px grey;
+	text-shadow: 2px 2px 2px  grey;
+}
+a{
+	color:white;
+}
+a:hover{
+	color: black;
 }
